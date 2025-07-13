@@ -1,0 +1,89 @@
+*{
+margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+.home-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.card {
+    background: white;
+    width: 500px;
+    margin: 80px auto 40px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card-header {
+    position: relative;
+    width: 100%;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.heart-icon {
+    width: 52px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transition: transform 0.3s;
+}
+ 
+  .heart-link:hover .heart-icon {
+    transform: scale(1.1);
+}
+.card-content {
+    padding: 20px;
+}
+.card h3 {
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    color: #333;
+}
+.card .info {
+    margin: 0 0 20px 0;
+    color: #666;
+    line-height: 1.5;
+}
+.card .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.card .old-price {
+    font-size: 16px;
+    color: #e74c3c;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+button {
+    width: 100%;
+
+padding: 12px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #45a049;
+    text-decoration: none;
+}
